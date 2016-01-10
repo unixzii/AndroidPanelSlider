@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000">
+
+    <RelativeLayout android:id="@+id/view" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#80cff0">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:text="Button" />
+    </RelativeLayout>
+
+    <com.cyandev.panelslider.PanelSlider
+            android:id="@+id/panelSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </com.cyandev.panelslider.PanelSlider>
+
+</FrameLayout>
