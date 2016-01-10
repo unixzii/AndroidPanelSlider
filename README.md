@@ -38,7 +38,8 @@ For example, if you want to collapse a ListView, you can just write these:
 And in code, you just need to set an initial height, that's all.
 
 ```java
-PanelSlider slider = (PanelSlider) findViewById(R.id.panelSlider);     slider.setInitialHeight(500);
+PanelSlider slider = (PanelSlider) findViewById(R.id.panelSlider);
+slider.setInitialHeight(500);
 ```
 
 If you like, you can set a listener to listen the change of `progress`:
