@@ -1,7 +1,7 @@
 # PanelSlider
 A simple library to make panel collapsable, with animation and more.
 
-![](https://raw.githubusercontent.com/unixzii/AndroidPanelSlider/master/images/screenshot.gif)
+![](https://raw.githubusercontent.com/unixzii/AndroidPanelSlider/master/image/screenshot.gif)
 
 ## Features
   * Optimized for ListView and ScrollView
